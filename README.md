@@ -8,9 +8,7 @@ Fully functional and interactive, this web application allows users to see a lis
 
     React
 
-    MongoDB
-
-    Express
+    FireBase
 
     Node
 
@@ -19,8 +17,6 @@ Fully functional and interactive, this web application allows users to see a lis
     CSS
 
     NPM React Slideshow
-
-    FireBase
 
     NPM PayPal Button
 
