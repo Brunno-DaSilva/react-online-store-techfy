@@ -2,7 +2,7 @@
 
 ## Concept:
 
-Full-stack MERN E-Commerce site. Fully functional and interactive, this web application allows users to see a list of products, see details about each product, add them to the cart, increment the number of items and buy the products utilizing PayPal.
+Fully functional and interactive, this web application allows users to see a list of products, see details about each product, add them to the cart, increment the number of items and buy the products utilizing PayPal.
 
 ## Technologies Used:
 
