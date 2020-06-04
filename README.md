@@ -46,4 +46,4 @@ Get the UserLogin and SignUp components to work properly utilizing Firebase.
 
 I have worked with FireBase prior this project to set up my contact form in JavaScript it was a very smooth project. Although the overall concept still the same, there were couple variants like passing up the state to gather the user name or email to display in my navbar and hide the Login and display the logout. I also tried OKTA which did not worked well. So I was able to get the user logged in however it still not making a lot of sense on how to passing the information from Firebase up to a higher component.
 
-### App Demo https://online-store-techfy.herokuapp.com/
+### App Demo https://online-store-techfy.herokuapp.com/home
