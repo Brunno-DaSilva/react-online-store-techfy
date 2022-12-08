@@ -1134,12 +1134,12 @@ h3 {
   list-style: none !important;
 }
 
-.main-services h1 {
+.sub-title-services {
   font-family: "Open Sans", sans-serif !important;
   text-transform: uppercase;
-  font-size: 2.7rem;
+  font-size: 1.7rem;
   letter-spacing: 0.7rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   margin-top: 3rem;
   color: #ffffff;
   list-style: none !important;
@@ -1458,6 +1458,13 @@ h3 {
 
   .icon-item-info {
     display: none;
+  }
+  .sub-title-services {
+    font-size: 1.2rem;
+    letter-spacing: 0.12rem;
+    margin-bottom: 0rem;
+    margin-top: 5rem !important;
+    color: #ffffff;
   }
 }
 
