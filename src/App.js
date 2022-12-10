@@ -45,7 +45,6 @@ export default class App extends Component {
     auth
       .signInWithEmailAndPassword(email, password)
       .then((user) => {
-        const { email, uid } = user;
         this.setState({
           isLoggedIn: true,
           email: user.user.email,

@@ -2,9 +2,9 @@ import React from "react";
 import { Slide } from "react-slideshow-image";
 import { NavLink } from "react-router-dom";
 
-import img1 from "./images/imageOne.png";
-import img2 from "./images/imageTwo.png";
-import img3 from "./images/ImageThree.png";
+import img1 from "../assets/slideshow-image_One.png";
+import img2 from "../assets/slideshow-image_Two.png";
+import img3 from "../assets/slideshow-image_Three.png";
 
 const properties = {
   duration: 5000,
@@ -12,9 +12,6 @@ const properties = {
   infinite: true,
   indicators: true,
   arrows: true,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  }
 };
 
 const Slideshow = () => {

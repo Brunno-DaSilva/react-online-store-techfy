@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import styled from "styled-components";
 import { ProductConsumer } from "../../ContextApi";
 import PropTypes from "prop-types";
 
