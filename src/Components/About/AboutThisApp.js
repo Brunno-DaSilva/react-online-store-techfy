@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import About from "./About";
 
 import "./aboutThisApp.css";
-import img2 from "./logotype.png";
+import logoURL from "../assets/logotype.png";
 
 export default class AboutThisApp extends Component {
   render() {
@@ -43,7 +43,7 @@ export default class AboutThisApp extends Component {
             </div>
           </div>
           <div className="right-content-about">
-            <img id="img2" src={img2} alt="TechFy" />
+            <img id="logo" src={logoURL} alt="TechFy Logo" />
           </div>
         </div>
         <div className="sub-title-this">

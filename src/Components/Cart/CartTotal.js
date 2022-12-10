@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import PayPalButton from "./PayPal";
-import logoImage from "./logotypewhite.png";
+import logoImage from "../assets/logo-type-white_cart.png";
 
 export default function CartTotal({ value, history }) {
   const { cartSubTotal, productTax, cartTotal, clearItems } = value;

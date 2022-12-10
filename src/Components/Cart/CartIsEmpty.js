@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ImgCartIsEmpty from "./CartIsEmpty.png";
+import ImgCartIsEmpty from "../assets/cart-is-empty.png";
 
 export default function CartIsEmpty() {
   return (
