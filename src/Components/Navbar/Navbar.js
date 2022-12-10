@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../logo.png";
 
@@ -6,11 +6,11 @@ const Navbar = ({ isLoggedIn, logout, email }) => {
   return (
     <header>
       <div className="main-navbar">
-        <input type="checkbox" id="nav-toggle" class="nav-toggle"></input>
+        <input type="checkbox" id="nav-toggle" className="nav-toggle"></input>
 
         <div className="nav-logo">
           <NavLink to="/home">
-            <img src={logo} alt="logo" className="logo" alt="logo" />
+            <img src={logo} alt="logo" className="logo" />
           </NavLink>
         </div>
 
@@ -62,7 +62,7 @@ const Navbar = ({ isLoggedIn, logout, email }) => {
             </li>
           </ul>
         </div>
-        <label for="nav-toggle" class="nav-toggle-label">
+        <label for="nav-toggle" className="nav-toggle-label">
           <span></span>
         </label>
       </div>

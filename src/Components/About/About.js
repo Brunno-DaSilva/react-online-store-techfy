@@ -129,6 +129,7 @@ export default class About extends Component {
                   <a
                     href="https://dasilvabrunotexas.github.io/project_1/index.html"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     DEMO
                   </a>
@@ -164,6 +165,7 @@ export default class About extends Component {
                   <a
                     href="https://star-wars-heroes-app.herokuapp.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     DEMO
                   </a>
@@ -200,6 +202,7 @@ export default class About extends Component {
                   <a
                     href="https://youtube-api-learning-app.herokuapp.com/#/youtubeList"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     DEMO
                   </a>
@@ -236,6 +239,7 @@ export default class About extends Component {
                   <a
                     href="https://star-wars-heroes-app.herokuapp.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     DEMO
                   </a>

@@ -10,8 +10,6 @@ export default class Home extends Component {
     return (
       <ProductConsumer>
         {(value) => {
-          const { id, img, price, title } = value.detailProduct;
-
           return (
             <div className="home-container">
               <Slideshow />

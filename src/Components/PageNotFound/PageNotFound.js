@@ -17,7 +17,7 @@ export default class PageNotFound extends Component {
           <div></div>
           <NavLink to="/products">
             <div className="pageNotFound-img">
-              <img src={logoTypeImg} alt="Login Image" />
+              <img src={logoTypeImg} alt="Login" />
               <span class="go-to">Go to products</span>
             </div>
           </NavLink>

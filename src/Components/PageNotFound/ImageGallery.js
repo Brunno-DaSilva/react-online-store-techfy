@@ -11,7 +11,7 @@ export default class ImageGallery extends Component {
       <ProductWrapper className="image-gallery-container">
         <div className="products-container">
           <ProductConsumer>
-            {value => {
+            {(value) => {
               return (
                 <div
                   className="product-left"
@@ -30,13 +30,10 @@ export default class ImageGallery extends Component {
                 {title} <span>${price}</span>
               </h2>
             </div>
-            <div className="product-add-info">
-              <h4></h4>
-              <h4></h4>
-            </div>
+            <div className="product-add-info" />
 
             <ProductConsumer>
-              {value => {
+              {(value) => {
                 return (
                   <div className="btn-holder">
                     <div onClick={() => value.handleDetails(id)}>
@@ -80,8 +77,8 @@ ImageGallery.propTypes = {
     title: PropTypes.string,
     img: PropTypes.string,
     price: PropTypes.number,
-    inCart: PropTypes.bool
-  }).isRequired
+    inCart: PropTypes.bool,
+  }).isRequired,
 };
 
 const ProductWrapper = styled.div`

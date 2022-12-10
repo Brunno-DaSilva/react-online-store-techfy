@@ -20,7 +20,11 @@ class Footer extends Component {
             <p>
               More <span>Projects</span>
             </p>
-            <a href="https://github.com/DaSilvaBrunoTexas" target="_blank">
+            <a
+              href="https://github.com/DaSilvaBrunoTexas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i>
                 <FontAwesomeIcon icon={faGithub} />
               </i>
