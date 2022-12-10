@@ -21,7 +21,7 @@ class Footer extends Component {
               More <span>Projects</span>
             </p>
             <a
-              href="https://github.com/DaSilvaBrunoTexas"
+              href="https://github.com/DaSilvaBrunoTexa s"
               target="_blank"
               rel="noopener noreferrer"
             >
