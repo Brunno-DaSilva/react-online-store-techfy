@@ -62,7 +62,10 @@ export default function HomeFeatured() {
             </NavLink>
           </div>
           <div className="right-img-holder2">
-            <img src="https://res.cloudinary.com/duprwuo4j/image/upload/v1582951015/imgs_starwars/EcommerceProject/firstcellphone_wjlvle.png" />
+            <img
+              src="https://res.cloudinary.com/duprwuo4j/image/upload/v1582951015/imgs_starwars/EcommerceProject/firstcellphone_wjlvle.png"
+              alt="Old Phone"
+            />
           </div>
         </div>
       </div>

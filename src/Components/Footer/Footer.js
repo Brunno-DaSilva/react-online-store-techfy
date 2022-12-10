@@ -33,13 +33,18 @@ class Footer extends Component {
             <a
               href="https://www.linkedin.com/in/bruno-dasilva/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i>
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </i>
             </a>
 
-            <a href="http://bruno-dasilva.com/" target="_blank">
+            <a
+              href="http://bruno-dasilva.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i>
                 <FontAwesomeIcon icon={faGlobeAmericas} />
               </i>

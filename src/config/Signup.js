@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import loginImg from "./login-img.png";
-import logoTypeImg from "./logotypewhite.png";
+import loginImg from "../Components/assets/login-background-img.png";
+import logoTypeImg from "../Components/assets/logo-type-white_cart.png";
 
 export default class Signup extends Component {
   state = {
@@ -34,14 +34,14 @@ export default class Signup extends Component {
       <div>
         <div className="user-login-container">
           <div className="login-img">
-            <img src={loginImg} alt="Login Image" />
+            <img src={loginImg} alt="Login" />
           </div>
           <div className="form-container">
             {/* the form starts here */}
 
             <form onSubmit={this.onSubmit}>
               <div className="logo-type">
-                <img src={logoTypeImg} alt="LogoType" />
+                <img src={logoTypeImg} alt="Logo" />
               </div>
 
               <div class="form-group">

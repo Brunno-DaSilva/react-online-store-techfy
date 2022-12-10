@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import loginImg from "./login-img.png";
-import logoTypeImg from "./logotypewhite.png";
+import loginImg from "../Components/assets/login-background-img.png";
+import logoTypeImg from "../Components/assets/logo-type-white_cart.png";
 
 class UserLogin extends Component {
   state = {
@@ -31,17 +31,16 @@ class UserLogin extends Component {
   };
 
   render() {
-    console.log("UserLoginProps", this.props);
     return (
       <div>
         <div className="user-login-container">
           <div className="login-img">
-            <img src={loginImg} alt="Login Image" />
+            <img src={loginImg} alt="Login" />
           </div>
           <div className="form-container">
             <form onSubmit={this.login}>
               <div className="logo-type">
-                <img src={logoTypeImg} alt="LogoType" />
+                <img src={logoTypeImg} alt="TechFy Logo" />
               </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Email</label>
@@ -52,7 +51,7 @@ class UserLogin extends Component {
                   name="email"
                   class="form-control"
                   id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
+                  aria-describedby="email Help"
                   placeholder="Enter email"
                 />
               </div>

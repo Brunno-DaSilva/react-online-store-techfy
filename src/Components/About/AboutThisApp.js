@@ -9,8 +9,8 @@ export default class AboutThisApp extends Component {
     return (
       <section
         id="aboutMeApp"
-        classNameName="container-about-this-app"
-        tabindex="-1"
+        className="container-about-this-app"
+        tabIndex="-1"
       >
         <div className="overlay-about-this"></div>
         <div className="title-about-this">

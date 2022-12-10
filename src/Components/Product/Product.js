@@ -31,10 +31,7 @@ export default class Product extends Component {
                 {title} <span>${price}</span>
               </h2>
             </div>
-            <div className="product-add-info">
-              <h4></h4>
-              <h4></h4>
-            </div>
+            <div className="product-add-info" />
 
             <ProductConsumer>
               {(value) => {
