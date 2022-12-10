@@ -1,7 +1,7 @@
 import React from "react";
-import headphoneImg from "./images/headphone.png";
-import iPhoneImg from "./images/iphone11right.png";
-import beatsWhite from "./images/beatsWhite.png";
+import headphoneImg from "../assets/headphone.png";
+import iPhoneImg from "../assets/iphone11right.png";
+import beatsWhite from "../assets/beatsWhite.png";
 import { ButtonContainer } from "../StyleComponents/Button";
 import { NavLink } from "react-router-dom";
 import { ProductConsumer } from "../../ContextApi";
@@ -12,7 +12,7 @@ export default function HomeFeatured() {
       <div className="home-featured-container">
         <div className="featured-img-container">
           <div className="left-img-holder">
-            <img src={headphoneImg} />
+            <img src={headphoneImg} alt="Male with Headphones" />
           </div>
           <div className="right-img-holder">
             <h2>Bose Noise Canceling</h2>
@@ -34,13 +34,13 @@ export default function HomeFeatured() {
             </NavLink>
           </div>
           <div className="right-img-holder2">
-            <img src={iPhoneImg} />
+            <img src={iPhoneImg} alt="iPhone 11" />
           </div>
         </div>
 
         <div className="featured-img-container">
           <div className="left-img-holder">
-            <img src={beatsWhite} />
+            <img src={beatsWhite} alt="White beats headphone" />
           </div>
           <div className="right-img-holder">
             <h2>Beats by Dr. Dre</h2>
@@ -72,27 +72,29 @@ export default function HomeFeatured() {
           {(value) => {
             // const randomNum = Math.floor(Math.random() * 6 + 3);
 
-            return value.products.slice(23, 29).map((product) => {
-              return (
-                <div className="card-holder">
-                  <div className="top-card">
-                    <img src={product.img} />
-                  </div>
+            return value.products
+              .slice(23, 29)
+              .map(({ id, title, img, price }) => {
+                return (
+                  <div key={id} className="card-holder">
+                    <div className="top-card">
+                      <img src={img} alt={title} />
+                    </div>
 
-                  <div className="desc-card">
-                    <p>{product.title}</p>
-                    <div className="card-price-ab">
-                      <div>
-                        <p> $ {product.price}</p>
+                    <div className="desc-card">
+                      <p>{title}</p>
+                      <div className="card-price-ab">
+                        <div>
+                          <p> $ {price}</p>
+                        </div>
+                        <NavLink to="/products">
+                          <ButtonContainer>Shop Now</ButtonContainer>
+                        </NavLink>
                       </div>
-                      <NavLink to="/products">
-                        <ButtonContainer>Shop Now</ButtonContainer>
-                      </NavLink>
                     </div>
                   </div>
-                </div>
-              );
-            });
+                );
+              });
           }}
         </ProductConsumer>
       </div>

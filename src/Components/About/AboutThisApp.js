@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import About from "./About";
 
 import "./aboutThisApp.css";
-import logoURL from "../assets/logotype.png";
+import logoURL from "../assets/techfy-logo-type.png";
 
 export default class AboutThisApp extends Component {
   render() {
